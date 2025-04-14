@@ -1,28 +1,13 @@
 {
   "compilerOptions": {
-    /* Language and Environment */
-    "target": "ES2020",                       
-    "lib": ["ES2020"],                        
-    "module": "CommonJS",                     
-    "moduleResolution": "node",              
-    "esModuleInterop": true,                  
+    "target": "es2018",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-
-    /* Paths */
-    "rootDir": "./src",                       
-    "outDir": "./dist",                       
-
-    /* Type Checking */
-    "strict": true,                           
-    "skipLibCheck": true,                     
-
-    /* Node support */
-    "resolveJsonModule": true,                
-    "types": ["node"],                        
-
-    /* Clean Emission */
-    "noEmitOnError": true                     
-  },
-  "include": ["src"],                         
-  "exclude": ["node_modules", "dist"]         
+    "strict": true,
+    "skipLibCheck": true,
+    "types": ["node"]  // ✅ crucial to avoid TS errors with "process", "console"
+  }
 }
