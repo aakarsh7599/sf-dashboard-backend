@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm install @types/node --no-save && tsc",
+    "build": "tsc",
     "start": "node dist/src/app.js"
   },
   "keywords": [],
