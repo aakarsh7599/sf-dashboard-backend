@@ -7,7 +7,7 @@
     "dev": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc && mkdir -p ./src/dist && cp -rf ./dist/src/ ./src/dist/ && echo 'Build completed'",
-    "start": "pwd && ls -la && node dist/app.js"
+    "start": "pwd && ls -la"
   },
   "keywords": [],
   "author": "",
