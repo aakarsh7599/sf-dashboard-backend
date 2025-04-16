@@ -16,7 +16,7 @@ const prisma = new PrismaClient();
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:5173', // your frontend origin
+  origin: 'https://sdb-frontend.onrender.com', // your frontend origin
   credentials: true
 })); // Enable CORS
 app.use(express.json()); // Parses JSON bodies
