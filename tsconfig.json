@@ -8,6 +8,6 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
-    "types": ["node"]  // ✅ crucial to avoid TS errors with "process", "console"
+    "types": ["node"]  //crucial to avoid TS errors with "process", "console"
   }
 }

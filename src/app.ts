@@ -27,7 +27,7 @@ app.use('/api/dashboard', dashboardRoutes)
 
 // Root route
 app.get('/', (req, res) => {
-  res.send('🚀 API is running...');
+  res.send('API is running...');
 });
 
 // Start server

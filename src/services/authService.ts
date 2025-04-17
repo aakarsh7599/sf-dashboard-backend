@@ -11,12 +11,8 @@ export async function loginUser(email: string, password: string) {
     throw new Error('Invalid email or password');
   }
 
-  console.log('User-entered password:', password);
-console.log('Stored hash:', user.password);
 
 const isMatch1 = await bcrypt.compare(password, user.password);
-console.log('Password match:', isMatch1);
-
   const isMatch = await bcrypt.compare(password, user.password);
   if (!isMatch) {
     throw new Error('Invalid email or password');
