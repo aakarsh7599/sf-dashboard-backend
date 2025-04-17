@@ -1,6 +1,6 @@
 # Backend – Salesforce Accounts Dashboard
 
-This is the backend component of the Salesforce Accounts Dashboard, responsible for user authentication, Salesforce integration, and secure account data retrieval. It is built with Node.js, Express, TypeScript, and Prisma ORM.
+This is the backend component of the Salesforce Dashboard Application, responsible for user authentication, Salesforce integration, and secure account data retrieval. It is built with Node.js, Express, TypeScript, and Prisma ORM.
 
 ## Live Demo
 
