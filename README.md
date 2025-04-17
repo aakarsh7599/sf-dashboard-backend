@@ -124,7 +124,7 @@ npm run build
 npm start
 ```
 
-## Issues Faced
+## Challenges Faced
 
 CORS Config: Initially, the frontend application was unable to communicate with the backend due to CORS (Cross-Origin Resource Sharing) issues. Despite the backend being live and accessible, the browser blocked requests coming from the frontend origin. After investigating the network errors and understanding how CORS works, resolved the issue by explicitly enabling CORS. 
 This allowed cross-origin access between the frontend and backend running on different domains during local development and in production.
