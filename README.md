@@ -7,6 +7,9 @@ This is the backend component of the Salesforce Dashboard Application, responsib
 - Frontend: [https://sdb-frontend.onrender.com](https://sdb-frontend.onrender.com)
 - Backend: [https://sf-dashboard-backend.onrender.com](https://sf-dashboard-backend.onrender.com)
 
+NOTE: Initial requests may take time due to cold start
+<img width="1376" alt="image" src="https://github.com/user-attachments/assets/dc03674a-32ea-40ad-b962-14ee481baafb" />
+
 ## Features
 
 - Secure user registration and login with JWT-based authentication.
